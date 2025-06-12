@@ -4,43 +4,112 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Oday Abou Hamdan</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <section class="portfolio">
       <div class="main">
         <div class="image">
-          <img src="assets/myself.jpg" alt="me" />
+          <img src="assets/myself.jpg" alt="Oday Abou Hamdan" />
         </div>
         <div class="personal">
           <div class="main-info">
-            <!--justify between-->
-            <div>
+            <div class="name-location">
               <h2>Oday Abou Hamdan</h2>
-              <img src="assets/pin.png" alt="location icon" />
-              <p>Gharifeh Al Shouf, Lebanon</p>
+              <div class="location">
+                <img src="assets/pin.png" alt="Location Icon" />
+                <p>Gharifeh Al Shouf, Lebanon</p>
+              </div>
             </div>
-            <div>
-              <img src="assets/bookmark.png" alt="bookmark icon" />
+            <div class="bookmark">
+              <img src="assets/bookmark.png" alt="Bookmark Icon" />
               <p>Bookmark</p>
             </div>
           </div>
-          <div>
+          <div class="rating-container">
             <p>Rating</p>
             <div class="rating">
               <p>8.6</p>
-              <div>
-                <img src="assets/star.png" alt="star" />
-                <img src="assets/star.png" alt="star" />
-                <img src="assets/star.png" alt="star" />
-                <img src="assets/star.png" alt="star" />
-                <img src="assets/white-star.png" alt="star" />
+              <div class="stars">
+                <img src="assets/star.png" alt="Star" />
+                <img src="assets/star.png" alt="Star" />
+                <img src="assets/star.png" alt="Star" />
+                <img src="assets/star.png" alt="Star" />
+                <img src="assets/white-star.png" alt="Star" />
               </div>
             </div>
           </div>
+          <div class="contact">
+            <button class="message-btn">
+              <span class="material-icons">chat</span> Send message
+            </button>
+            <button class="contact-btn">Contact</button>
+          </div>
+          <div class="toolbar">
+            <button class="timeline">
+              <span class="material-icons">visibility</span>
+              Timeline
+            </button>
+            <button class="about">
+              <span class="material-icons">person</span>
+              About
+            </button>
+          </div>
         </div>
-        <div class="info">
-          <div class="work"></div>
-          <div class="contact"></div>
+      </div>
+      <div class="info">
+        <!-- Left Column -->
+        <div class="experience">
+          <p>Work</p>
+          <div class="job">
+            <strong>HolyCreateMedia</strong>
+            <span class="label">Primary</span><br />
+            Beirut, Lebanon<br />
+          </div>
+          <div class="job">
+            <strong></strong>
+            <span class="label">Secondary</span><br />
+            Gharifeh, Al Shouf<br />
+          </div>
+          <p>Skills</p>
+          <div class="skills-list">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Laravel</li>
+              <li>Bootstrap</li>
+              <li>TailwindCSS</li>
+              <li>MySQL</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Right Column -->
+        <div class="contact-info">
+          <p>Contact Information</p>
+          <div class="info-column">
+            <div>Phone:</div>
+            <div>+961 71575861</div>
+            <div>Address:</div>
+            <div>Gharifeh Al Shouf</div>
+            <div>E-mail:</div>
+            <div>
+              <a href="mailto:odayah50@gmail.com">odayah50@gmail.com</a>
+            </div>
+            <div>Site:</div>
+            <div><a href="#">odayah.com</a></div>
+          </div>
+          <h4>Basic Information</h4>
+          <div class="info-grid">
+            <div>Birthday:</div>
+            <div>September 1, 2001</div>
+            <div>Gender:</div>
+            <div>Male</div>
+          </div>
         </div>
       </div>
     </section>
